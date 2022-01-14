@@ -1,0 +1,302 @@
+#topnav .navbar-brand {
+  font-size: 30px;
+  margin: 0px 40px;
+  font-family: "Rubik", sans-serif;
+}
+
+#topnav #topnavinfo .nav-link {
+  font-size: 20px;
+  color: white;
+  margin: 0px 10px;
+  font-family: "Roboto", sans-serif;
+}
+#topnav #topnavinfo .nav-link:hover{
+    color: #4e4eff;
+}
+#category {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  display: flexbox;
+}
+#category .cat-item {
+  font-style: bold;
+  color: black;
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  display: block;
+  /*background-color: #e9e9e9;*/
+  background-color: #f5f5f3;
+  padding: 10px;
+}
+#category .cat-item:hover {
+  color: blue;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 90%;
+}
+
+/*mobile*/
+@media only screen and (max-width: 768px){
+  .dropdown-content{
+    position:relative;
+  }
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  padding: 7px;
+  border: 1px gray solid;
+}
+
+.bollycat:hover .dropdown-content {
+  display: block;
+  background-color: #333;
+  margin-bottom: 20px;
+  opacity: 1;
+  width: 94%;
+  z-index: 1;
+}
+.dropdown-content a:hover {
+    color: #4e4eff;
+}
+
+/*
+#catlogo img{
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}*/
+#datapage {
+  /*background-color: #fafaf7;*/
+  background-color: #f5f5f3;
+}
+.hading {
+  font-family: "Lato", sans-serif;
+}
+.hading h1 {
+  font-size: 50px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.data{
+  margin-bottom: 40px;
+}
+.databox {
+  background-color: white;
+  margin-top: 30px;
+  box-shadow: 3px 3px 10px #00000052;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: block;
+}
+.databox .dataimg img {
+  width: 70%;
+  margin-left: 15%;
+}
+.databox .datahading h3 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.databox .datahading h3 a{
+  color: black;
+}
+.databox .datahading h3 a:hover{
+    color:#4e4eff;
+    text-decoration: none;
+}
+.datainfo p {
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sidebar .sb-hading h3 {
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+}
+.sidebar .sb-card {
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 10px #00000052;
+}
+.sidebar .sb-card-img img {
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 1%;
+}
+/*.sidebar .sb-card-img img:hover{
+    width: 100%;
+    margin-left: -1%;
+    padding-top: -1%;
+}*/
+.sidebar .sb-card-data a {
+  font-size: 15px;
+  padding-top: 4%;
+  text-align: center;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.sidebar .sb-card-data a:hover{
+    color: #4e4eff;
+    text-decoration: none;
+}
+
+/*pagination*/
+.pagination-center {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    border-radius: 6px;
+}
+.pagination a.active {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.pagination a:hover{
+    border: 1px solid #4caf50;
+}
+.pagination p{
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.pagination .pg-next{
+    margin-left: 20px;
+}
+/*pagination*/
+
+/*footer*/
+.footer{
+  background-color: #f5f5f3;
+  margin-bottom: 30px;
+  scroll-margin-top: 30px;
+}
+.footer .social-link{
+  float: left;
+  display: block;
+  margin-left: 25px;
+  margin: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+.footer .social-link a{
+  color: black;
+}
+.footer .social-link a:hover{
+  color: #4e4eff;
+  text-decoration: none;
+}
+.footer .social-link a img{
+  width: 40px;
+}
+.footer .social-link .footer-social-text{
+  font-size: 15px;
+}
+.footer .footer-menu a{
+  float: left;
+  margin-left: 20px;
+  display: block;
+  margin: 20px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+.footer .footer-menu a:hover{
+  color: #4e4eff;
+  text-decoration: none;
+}
+.footer .footer-menu .footer-menu-active{
+  color: #4e4eff;
+} 
+.footer .footer-copyright{
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+/*footer*/
+
+/* ytdata */
+.data-card{
+  margin-top: 30px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  background-color: white;
+  
+
+  /*box-shadow: 1px 1px 10px black;*/
+}
+.data-card .data-card-img img{
+  width: 100%;
+}
+.data-card .data-card-hading{
+  padding-top: 15%;
+  align-self:center;
+  font-family: "Rubik", sans-serif; 
+}
+.data-card .data-card-hading a{
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: black;
+}
+.data-card .data-card-hading a:hover{
+  color: #4e4eff;
+}
+.data-card .data-card-info{
+  padding-top: 3%;
+  font-size: 1.3vw;
+  font-family: "Roboto", sans-serif;
+}
+.data-card .col-md-8{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+/*mobile*/
+@media only screen and (max-width: 768px) {
+  .data-card .data-card-hading{
+    padding-top: 2%;
+    padding-left: 10px;
+  }
+  .data-card .data-card-info{
+    font-size: 2vw;
+    padding-left: 10px;
+  }
+  .data-card .data-card-hading a{
+    font-size: 3vw;
+  }
+}
+/*Tablate*/
+@media only screen and (min-width: 768px) {
+  .data-card .data-card-hading a{
+    padding-top: 1px;
+  }
+}
+
+/* ytdata */
