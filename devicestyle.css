@@ -17,8 +17,8 @@
     font-size: 3vw;
   }
 }
-
 /*tablate*/
+
 /*mobile*/
 @media only screen and (max-width: 425px) {
   .hading h1 {
@@ -54,11 +54,21 @@
         font-size: 3vw;
     }
 }
+@media only screen and (max-width: 768px){
+  #datapage .databox {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+}
 /*                   main page data cards                   */
 /*                   sidebar cards                   */
-
+/*tablate*/
 @media only screen and (max-width: 768px)
 {
+  .sidebar .sb-card{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
   .sidebar .sb-card a{
     font-size: 2vw;
     justify-content: center;
@@ -66,6 +76,10 @@
 }
 /*mobile*/
 @media only screen and (max-width: 425px){
+  .sidebar .sb-card{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .sidebar .sb-card img{
     width: 60px;
   }
@@ -74,6 +88,17 @@
   }
 }
 /*                   sidebar cards                   */
+
+/*                    .pagination                    */
+/*mobile*/
+@media only screen and (max-width:425px){
+  .pagination a{
+    font-size: 10px;
+  }
+} 
+  
+
+/*                    .pagination                    */
 
 /*                      footer                       */
 /*mobile*/
