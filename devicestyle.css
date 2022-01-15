@@ -1,3 +1,92 @@
+/*                  nav                         */
+@media only screen and (max-width: 973px) {
+  .navbar .bx-menu {
+    display: block;
+  }
+
+  nav .navbar .nav-links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    background: #333;
+    line-height: 40px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease;
+    z-index: 1000;
+  }
+
+  .navbar .nav-links .sidebar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sidebar-logo .logo-name {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .sidebar-logo i,
+  .navbar .bx-menu {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  nav .navbar .links {
+    display: block;
+    margin-top: 20px;
+  }
+
+  nav .navbar .links li .arrow {
+    line-height: 40px;
+  }
+
+  nav .navbar .links li {
+    display: block;
+    padding: 0px 10px;
+  }
+
+  nav .navbar .links li .sub-menu {
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    display: none;
+  }
+
+  nav .navbar .links li .sub-menu li {
+    border-bottom: none;
+  }
+
+  .links li:hover .bollyact-arrow,
+  .links li:hover .cb-arrow {
+    transform: rotate(0deg);
+  }
+  nav .navbar .links li:hover .bollyAct-sub-menu,
+  nav .navbar .links li:hover .cb-sub-menu {
+    display: none;
+  }
+
+  .navbar .nav-links.show1 .links .bollyAct-sub-menu,
+  .navbar .nav-links.show3 .links .cb-sub-menu {
+    display: block;
+  }
+
+  .navbar .nav-links.show1 .links .bollyact-arrow,
+  .navbar .nav-links.show3 .links .cb-arrow {
+    transform: rotate(180deg);
+  }
+}
+@media only screen and (max-width: 370px) {
+  nav .navbar .nav-links {
+    max-width: 100%;
+  }
+}
+/*                  nav                         */
+
 /*                   catagary data cards                   */
 
 /*tablate*/
@@ -39,51 +128,49 @@
 
 /*                   catagary data cards                   */
 
-
 /*                   mainpage data cards                   */
 /*mobile*/
-@media only screen and (max-width: 425px){
-    #datapage .databox {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .databox .datahading h3{
-        font-size: 5vw;
-    }
-    .datainfo p {
-        font-size: 3vw;
-    }
+@media only screen and (max-width: 425px) {
+  #datapage .databox {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .databox .datahading h3 {
+    font-size: 5vw;
+  }
+  .datainfo p {
+    font-size: 3vw;
+  }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   #datapage .databox {
     margin-left: 30px;
     margin-right: 30px;
-}
+  }
 }
 /*                   main page data cards                   */
 /*                   sidebar cards                   */
 /*tablate*/
-@media only screen and (max-width: 768px)
-{
-  .sidebar .sb-card{
+@media only screen and (max-width: 768px) {
+  .sidebar .sb-card {
     margin-left: 30px;
     margin-right: 30px;
   }
-  .sidebar .sb-card a{
+  .sidebar .sb-card a {
     font-size: 2vw;
     justify-content: center;
   }
 }
 /*mobile*/
-@media only screen and (max-width: 425px){
-  .sidebar .sb-card{
+@media only screen and (max-width: 425px) {
+  .sidebar .sb-card {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .sidebar .sb-card img{
+  .sidebar .sb-card img {
     width: 60px;
   }
-  .sidebar .sb-card a{
+  .sidebar .sb-card a {
     font-size: 2.5vw;
   }
 }
@@ -91,39 +178,38 @@
 
 /*                    .pagination                    */
 /*mobile*/
-@media only screen and (max-width:425px){
-  .pagination a{
+@media only screen and (max-width: 425px) {
+  .pagination a {
     font-size: 10px;
   }
-} 
-  
+}
 
 /*                    .pagination                    */
 
 /*                      footer                       */
 /*mobile*/
-@media only screen and (max-width: 426px){
-  .footer .footer-menu a{
+@media only screen and (max-width: 426px) {
+  .footer .footer-menu a {
     font-size: 3vw;
     margin: 10px;
   }
-  .footer .social-link .footer-social-text{
+  .footer .social-link .footer-social-text {
     font-size: 3vw;
   }
-  .footer .footer-copyright{
+  .footer .footer-copyright {
     font-size: 3vw;
   }
 }
 /*tablate*/
-@media only screen and (max-width: 768px){
-  .footer .social-link .footer-social-text{
+@media only screen and (max-width: 768px) {
+  .footer .social-link .footer-social-text {
     font-size: 2.5vw;
   }
-  .footer .footer-menu a{
+  .footer .footer-menu a {
     font-size: 2.3vw;
   }
-  
-  .footer .footer-copyright{
+
+  .footer .footer-copyright {
     font-size: 2vw;
   }
 }
