@@ -1,0 +1,105 @@
+/*                   catagary data cards                   */
+
+/*tablate*/
+@media only screen and (max-width: 768px) {
+  .hading h1 {
+    font-size: 4vw;
+  }
+  .data-card .data-card-hading {
+    padding-top: 2%;
+    padding-left: 10px;
+  }
+  .data-card .data-card-info {
+    font-size: 2vw;
+    padding-left: 10px;
+  }
+  .data-card .data-card-hading a {
+    font-size: 3vw;
+  }
+}
+
+/*tablate*/
+/*mobile*/
+@media only screen and (max-width: 425px) {
+  .hading h1 {
+    font-size: 6vw;
+  }
+  .data-card {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .data-card .data-card-hading a {
+    font-size: 5vw;
+  }
+  .data-card .data-card-info {
+    font-size: 4vw;
+  }
+}
+/*mobile*/
+
+/*                   catagary data cards                   */
+
+
+/*                   mainpage data cards                   */
+/*mobile*/
+@media only screen and (max-width: 425px){
+    #datapage .databox {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .databox .datahading h3{
+        font-size: 5vw;
+    }
+    .datainfo p {
+        font-size: 3vw;
+    }
+}
+/*                   main page data cards                   */
+/*                   sidebar cards                   */
+
+@media only screen and (max-width: 768px)
+{
+  .sidebar .sb-card a{
+    font-size: 2vw;
+    justify-content: center;
+  }
+}
+/*mobile*/
+@media only screen and (max-width: 425px){
+  .sidebar .sb-card img{
+    width: 60px;
+  }
+  .sidebar .sb-card a{
+    font-size: 2.5vw;
+  }
+}
+/*                   sidebar cards                   */
+
+/*                      footer                       */
+/*mobile*/
+@media only screen and (max-width: 426px){
+  .footer .footer-menu a{
+    font-size: 3vw;
+    margin: 10px;
+  }
+  .footer .social-link .footer-social-text{
+    font-size: 3vw;
+  }
+  .footer .footer-copyright{
+    font-size: 3vw;
+  }
+}
+/*tablate*/
+@media only screen and (max-width: 768px){
+  .footer .social-link .footer-social-text{
+    font-size: 2.5vw;
+  }
+  .footer .footer-menu a{
+    font-size: 2.3vw;
+  }
+  
+  .footer .footer-copyright{
+    font-size: 2vw;
+  }
+}
+/*                      footer                       */
