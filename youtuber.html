@@ -2,61 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--            links            -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&family=Rubik:wght@500&display=swap"
-        rel="stylesheet">
-    <!--            links            -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="devicestyle.css">
-    <title>Biography</title>
+  <!--            links            -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&family=Rubik:wght@500&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--            links            -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="devicestyle.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  </style>
+  <title>Biography</title>
 </head>
 
 <body>
-    <div class="main-container">
-        <!--      top nav       -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="topnav">
-            <a class="navbar-brand" href="index.html"><b>BIOGRAPHY</b></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <div class="main-container">
+    <!--            Top Nav           -->
+    <nav>
+      <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="index.html">BIOGRAPHY</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">BIOGRAPHY</span>
+            <i class='bx bx-x'></i>
+          </div>
+          <ul class="links">
+            <li><a href="index.html">HOME</a></li>
+            <li>
+              <a href="#">BOLLYWOOD CELEBRITIES</a>
+              <i class='bx bxs-chevron-down bollyact-arrow arrow'></i>
+              <ul class="bollyAct-sub-menu sub-menu">
+                <li><a href="#">Bollywood Actors</a></li>
+                <li><a href="#">Bollywood Actresses</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">CELEBRITIES</a>
+              <i class='bx bxs-chevron-down cb-arrow arrow '></i>
+              <ul class="cb-sub-menu sub-menu">
+                <li><a href="youtuber.html">Youtubers</a></li>
+                <li><a href="#">Singer</a></li>
+                <li><a href="#">Dancer</a></li>
+                <li><a href="#">Famous Personaliies</a></li>
+              </ul>
+            </li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </div>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto" id="topnavinfo">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Advertise with us</a>
-                    </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav><br><br>
-        <!--      top nav       -->
+      </div>
+    </nav><br><br><br><br>
+    <!--            Top Nav           -->
         <!--      category hader   -->
         <div class="container">
             <div class="row" id="category">
@@ -215,6 +230,7 @@
             </div>
         </div>
     </div>
+      <script src="javascript.js"></script>
 </body>
 
 </html>

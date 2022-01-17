@@ -189,6 +189,9 @@
 /*                      footer                       */
 /*mobile*/
 @media only screen and (max-width: 426px) {
+  .footer .social-link a img{
+    width: 25px;
+  }
   .footer .footer-menu a {
     font-size: 3vw;
     margin: 10px;
@@ -203,10 +206,10 @@
 /*tablate*/
 @media only screen and (max-width: 768px) {
   .footer .social-link .footer-social-text {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
   }
   .footer .footer-menu a {
-    font-size: 2.3vw;
+    font-size: 2.1vw;
   }
 
   .footer .footer-copyright {

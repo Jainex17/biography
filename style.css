@@ -1,18 +1,3 @@
-/*#topnav .navbar-brand {
-  font-size: 30px;
-  margin: 0px 40px;
-  font-family: "Rubik", sans-serif;
-}
-
-#topnav #topnavinfo .nav-link {
-  font-size: 20px;
-  color: white;
-  margin: 0px 10px;
-  font-family: "Roboto", sans-serif;
-}
-#topnav #topnavinfo .nav-link:hover{
-    color: #4e4eff;
-}*/
 * {
   margin: 0;
   padding: 0;
@@ -44,24 +29,20 @@ nav .navbar {
   /* background: red; */
   padding: 0 50px;
 }
-
 .navbar .logo a {
   font-size: 30px;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
 }
-
 nav .navbar .nav-links {
   line-height: 70px;
   height: 100%;
 }
-
 nav .navbar .links {
   display: flex;
   padding: 0px;
 }
-
 nav .navbar .links li {
   padding: 0px;
   position: relative;
@@ -71,7 +52,6 @@ nav .navbar .links li {
   list-style: none;
   padding: 0 14px;
 }
-
 nav .navbar .links li a {
   height: 100%;
   text-decoration: none;
@@ -80,7 +60,9 @@ nav .navbar .links li a {
   font-size: 15px;
   font-weight: 500;
 }
-
+nav .navbar .links li a:hover{
+  color: #4e4eff;
+}
 .links li:hover .bollyact-arrow,
 .links li:hover .cb-arrow {
   transform: rotate(180deg);
@@ -130,7 +112,6 @@ nav .navbar .links li:hover .cb-sub-menu {
 /*        top nav        */
 /*        catagory        */
 #category {
-  margin-top: 100px;
   list-style: none;
   text-align: center;
   text-decoration: none;
@@ -379,7 +360,7 @@ nav .navbar .links li:hover .cb-sub-menu {
 }
 .data-card .data-card-hading a{
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   color: black;
 }
 .data-card .data-card-hading a:hover{
@@ -387,7 +368,7 @@ nav .navbar .links li:hover .cb-sub-menu {
 }
 .data-card .data-card-info{
   padding-top: 3%;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   font-family: "Roboto", sans-serif;
 }
 
