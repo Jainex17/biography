@@ -86,7 +86,14 @@
   }
 }
 /*                  nav                         */
+/*        catagory        */
 
+@media only screen and (max-width: 425px) {
+  #category {
+    display: none;
+  }
+}
+/*        catagory        */
 /*                   catagary data cards                   */
 
 /*tablate*/
@@ -131,21 +138,34 @@
 /*                   mainpage data cards                   */
 /*mobile*/
 @media only screen and (max-width: 425px) {
-  #datapage .databox {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
   .databox .datahading h3 {
     font-size: 5vw;
   }
   .datainfo p {
     font-size: 3vw;
   }
+  #datapage{
+    margin-top: -20px; /* if #category is display none */
+  }
 }
 @media only screen and (max-width: 768px) {
+  .data {
+    margin-left: 0;
+  }
   #datapage .databox {
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 0;
+  }
+  .databox .datahading h3 {
+    font-size: 2.8vw;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .datainfo p {
+    font-size: 1.8vw;
   }
 }
 /*                   main page data cards                   */
@@ -160,9 +180,22 @@
     font-size: 2vw;
     justify-content: center;
   }
+  .sidebar .sb-hading h3 {
+    font-size: 4vw;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  #dynamic_select {
+    padding: 0;
+    width: 100%;
+  }
 }
 /*mobile*/
 @media only screen and (max-width: 425px) {
+  #dynamic_select {
+    width: 100%;
+  }
   .sidebar .sb-card {
     margin-left: 0px;
     margin-right: 0px;
@@ -172,6 +205,11 @@
   }
   .sidebar .sb-card a {
     font-size: 2.5vw;
+  }
+  .sidebar .sb-hading h3 {
+    font-size: 5vw;
+    padding-top: 15px;
+    padding-bottom: 0;
   }
 }
 /*                   sidebar cards                   */
@@ -189,8 +227,10 @@
 /*                      footer                       */
 /*mobile*/
 @media only screen and (max-width: 426px) {
-  .footer .social-link a img{
+  .footer .social-link a img {
     width: 25px;
+    margin: 0;
+    margin-left: 26px;
   }
   .footer .footer-menu a {
     font-size: 3vw;

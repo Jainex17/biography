@@ -19,3 +19,15 @@ let cbArrow = document.querySelector(".cb-arrow");
 cbArrow.onclick = function () {
   navLinks.classList.toggle("show3");
 }
+
+//select js
+$(function(){
+  // bind change event to select
+  $('#dynamic_select').on('change', function () {
+      var url = $(this).val(); 
+      if (url) { 
+          window.location = url;
+      }
+      return false;
+  });
+});
