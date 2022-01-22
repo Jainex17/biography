@@ -331,7 +331,6 @@ nav .navbar .links li:hover .cb-sub-menu {
   float: left;
   margin: 10px 20px;
   font-size: 1.2vw;
-  font-family: 'Rubik', sans-serif;
   color: black;
 }
 .footer .footer-menu a:hover{
@@ -347,7 +346,7 @@ nav .navbar .links li:hover .cb-sub-menu {
 }
 /*footer*/
 
-/* ytdata */
+/* data */
 .data-card{
   margin-top: 30px;
   margin-left: 5rem;
@@ -379,7 +378,22 @@ nav .navbar .links li:hover .cb-sub-menu {
   font-family: "Roboto", sans-serif;
 }
 
+/* data */
 
-
-
-/* ytdata */
+/*  ad-with-us  */
+.ad-container{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ad-with-us-hading h1{
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ad-with-us-info p{
+font-family: 'PT Sans', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*  ad-with-us  */
