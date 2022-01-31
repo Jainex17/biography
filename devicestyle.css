@@ -144,7 +144,7 @@
   .datainfo p {
     font-size: 3vw;
   }
-  #datapage{
+  #datapage {
     margin-top: -20px; /* if #category is display none */
   }
 }

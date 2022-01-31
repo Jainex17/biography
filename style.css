@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   min-height: 100vh;
@@ -17,7 +17,7 @@ nav {
   background: #333;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 99;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 nav .navbar {
   height: 100%;
@@ -61,7 +61,7 @@ nav .navbar .links li a {
   font-size: 15px;
   font-weight: 500;
 }
-nav .navbar .links li a:hover{
+nav .navbar .links li a:hover {
   color: #4e4eff;
 }
 .links li:hover .bollyact-arrow,
@@ -139,9 +139,9 @@ nav .navbar .links li:hover .cb-sub-menu {
 }
 
 /*mobile*/
-@media only screen and (max-width: 768px){
-  .dropdown-content{
-    position:absolute;
+@media only screen and (max-width: 768px) {
+  .dropdown-content {
+    position: absolute;
   }
 }
 
@@ -164,7 +164,7 @@ nav .navbar .links li:hover .cb-sub-menu {
   z-index: 1;
 }
 .dropdown-content a:hover {
-    color: #4e4eff;
+  color: #4e4eff;
 }
 
 #datapage {
@@ -181,7 +181,7 @@ nav .navbar .links li:hover .cb-sub-menu {
   text-align: left;
   margin-left: 5%;
 }
-.data{
+.data {
   margin-bottom: 40px;
 }
 #datapage .databox {
@@ -197,16 +197,16 @@ nav .navbar .links li:hover .cb-sub-menu {
 }
 .databox .datahading h3 {
   font-size: 1.4rem;
-  text-align: center; 
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.databox .datahading h3 a{
+.databox .datahading h3 a {
   color: black;
 }
-.databox .datahading h3 a:hover{
-    color:#4e4eff;
-    text-decoration: none;
+.databox .datahading h3 a:hover {
+  color: #4e4eff;
+  text-decoration: none;
 }
 .datainfo p {
   text-align: left;
@@ -216,10 +216,10 @@ nav .navbar .links li:hover .cb-sub-menu {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.sidebar{
+.sidebar {
   margin-right: 30px;
 }
-#dynamic_select{
+#dynamic_select {
   width: 80%;
   height: 30px;
   padding-left: 10px;
@@ -238,14 +238,14 @@ nav .navbar .links li:hover .cb-sub-menu {
   background-color: white;
   display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 .sidebar .sb-card-img img {
   width: 80px;
   padding-top: 1%;
   flex: 1;
 }
-.sidebar .sb-card-data{
+.sidebar .sb-card-data {
   margin: 0px 10px;
   flex: 2;
 }
@@ -256,9 +256,9 @@ nav .navbar .links li:hover .cb-sub-menu {
   color: black;
   font-family: "Roboto", sans-serif;
 }
-.sidebar .sb-card-data a:hover{
-    color: #4e4eff;
-    text-decoration: none;
+.sidebar .sb-card-data a:hover {
+  color: #4e4eff;
+  text-decoration: none;
 }
 
 /*pagination*/
@@ -271,54 +271,54 @@ nav .navbar .links li:hover .cb-sub-menu {
   display: inline-block;
 }
 .pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    border: 1px solid #ddd;
-    margin: 0 5px;
-    border-radius: 6px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  border-radius: 6px;
 }
 .pagination a.active {
-    background-color: blue;
-    color: white;
-    border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
 }
-.pagination a:hover{
-    border: 1px solid #4caf50;
+.pagination a:hover {
+  border: 1px solid #4caf50;
 }
-.pagination p{
-    float: left;
-    text-align: center;
-    margin-left: 20px;
-    font-size: 20px;
+.pagination p {
+  float: left;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 20px;
 }
-.pagination .pg-next{
-    margin-left: 20px;
+.pagination .pg-next {
+  margin-left: 20px;
 }
 /*pagination*/
 
 /*footer*/
-.footer{
+.footer {
   background-color: #f5f5f3;
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.footer .social-link{
+.footer .social-link {
   float: left;
   display: block;
   margin: 10px 20px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
-.footer .social-link a{
+.footer .social-link a {
   color: black;
 }
-.footer .social-link a:hover{
+.footer .social-link a:hover {
   color: #4e4eff;
   text-decoration: none;
 }
-.footer .social-link a img{
+.footer .social-link a img {
   width: 40px;
   margin: 20px;
 }
@@ -327,52 +327,51 @@ nav .navbar .links li:hover .cb-sub-menu {
   font-size: 1.3vw;
   margin: 0px 5px;
 }*/
-.footer .footer-menu a{
+.footer .footer-menu a {
   float: left;
   margin: 10px 20px;
   font-size: 1.2vw;
   color: black;
 }
-.footer .footer-menu a:hover{
+.footer .footer-menu a:hover {
   color: #4e4eff;
   text-decoration: none;
 }
-.footer .footer-menu .footer-menu-active{
+.footer .footer-menu .footer-menu-active {
   color: #4e4eff;
-} 
-.footer .footer-copyright{
+}
+.footer .footer-copyright {
   font-size: 1.2vw;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 /*footer*/
 
 /* data */
-.data-card{
+.data-card {
   margin-top: 30px;
   margin-left: 5rem;
   margin-right: 5rem;
   display: flex;
   background-color: white;
-  
 
   /*box-shadow: 1px 1px 10px black;*/
 }
-.data-card .data-card-img img{
+.data-card .data-card-img img {
   width: 100%;
 }
-.data-card .data-card-hading{
+.data-card .data-card-hading {
   padding-top: 15%;
-  font-family: "Rubik", sans-serif; 
+  font-family: "Rubik", sans-serif;
 }
-.data-card .data-card-hading a{
+.data-card .data-card-hading a {
   text-decoration: none;
   font-size: 1.6vw;
   color: black;
 }
-.data-card .data-card-hading a:hover{
+.data-card .data-card-hading a:hover {
   color: #4e4eff;
 }
-.data-card .data-card-info{
+.data-card .data-card-info {
   padding-top: 3%;
   font-size: 1.2vw;
   font-family: "Roboto", sans-serif;
@@ -381,18 +380,18 @@ nav .navbar .links li:hover .cb-sub-menu {
 /* data */
 
 /*  ad-with-us  */
-.ad-container{
+.ad-container {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
-.ad-with-us-hading h1{
-  font-family: 'Ubuntu', sans-serif;
+.ad-with-us-hading h1 {
+  font-family: "Ubuntu", sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.ad-with-us-info p{
-font-family: 'PT Sans', sans-serif;
+.ad-with-us-info p {
+  font-family: "PT Sans", sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
 }
