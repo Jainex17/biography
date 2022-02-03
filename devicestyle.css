@@ -257,3 +257,57 @@
   }
 }
 /*                      footer                       */
+
+/*                       details                     */
+/*mobile*/
+@media only screen and (max-width: 426px) {
+  .card-details .hading h4{
+    font-size: 4vw;
+  }
+  .card-details .details-img img{
+    width: 100%;
+    margin: 0;
+  }
+  .card-details .details-img p{
+    margin-left: 20%;
+    font-size: 1.6vw;
+  }
+  .card-details .details .details-p p{
+    line-height: 17px;
+    font-size: 2.1vw;
+  }
+  .details-table table {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .details-table td{
+    font-size: 2.5vw;
+  }
+}
+
+/*tablate*/
+@media only screen and (max-width: 768px) {
+  .card-details .hading h4{
+    font-size: 4.9vw;
+  }
+  .card-details .details-img img{
+    width: 100%;
+    margin: 0;
+  }
+  .card-details .details-img p{
+    margin-left: 14%;
+    font-size: 2.1vw;
+  }
+  .card-details .details .details-p p{
+    font-size: 2.8vw;
+    margin-left: 0%;
+  }
+  .details-table table {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .details-table td{
+    font-size: 2.5vw;
+  }
+}
+/*                       details                     */
