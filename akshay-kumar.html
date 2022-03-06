@@ -31,6 +31,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
     </style>
     <title>Biography</title>
+    <script>
+        $(document).ready(function(){
+            $(".showhide").click(function(){
+                $(".show-data").show();
+            });
+        });
+
+    </script>
 </head>
 
 <body>
@@ -123,6 +131,19 @@
                                 <p>Akshay Kumar Height Age Wife Family Children Biography</p>
                             </caption>
                         </div>
+                        <div class="showhide">
+                            <p>Contents show</p>
+                        </div>
+                            <div class="show-data"><hr>
+                                <div class="show-data-hading">
+                                    <h5><b>Contents:-</b></h5>
+                                </div>
+                                <ul>
+                                    <li><a href="#hading1">Biography / Wiki</a></li>
+                                    <li><a href="#hading2">Education, Family , Ethnicity & Girlfriend :-</a></li>
+                                </ul><hr>
+                            </div>
+                    
                         <div class="details">
                             <div class="details-p">
                                 <p><strong>Akshay Kumar</strong> is one of the most successful Actors in the bollywood
@@ -150,7 +171,7 @@
                                 </caption>
                             </div>
                             <div class="hading">
-                                <h4><b>Biography / Wiki :-</b></h4>
+                                <h4 id="hading1"><b>Biography / Wiki :-</b></h4>
                             </div>
                             <div class="details-table">
                                 <table>
@@ -235,7 +256,7 @@
                                 </caption>
                             </div>
                             <div class="hading">
-                                <h4><b>Education, Family , Ethnicity & Girlfriend :-</b></h4>
+                                <h4 id="hading2"><b>Education, Family , Ethnicity & Girlfriend :-</b></h4>
                             </div>
                             <div class="details-table">
                                 <table>

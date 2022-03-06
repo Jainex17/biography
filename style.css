@@ -446,3 +446,52 @@ nav .navbar .links li:hover .cb-sub-menu {
   background-color: #dddddd;
 }
 /*    card-details      */
+
+/*    priacy-policy     */
+.p-main{
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.p-main .p-hader h2{
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding: 20px;
+}
+.p-main .p-info p{
+  line-height: 25px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+}
+.p-main .p-info-head h6{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+/*    priacy-policy     */
+
+/*    show hide         */
+.showhide{
+  margin-left: 45%;
+}
+.showhide p{
+  border: #333 2px solid;
+  width: 30%;
+  cursor:pointer;
+  padding: 8px;
+  text-align: center;
+}
+.show-data{
+  display: none;
+  padding-left:40px;
+}
+.show-data .show-data-hading h5{
+  font-size: 1.5vw;
+  padding: 2px;
+}
+.show-data ul li a{
+  font-size: 1vw;
+  line-height: 30px;
+  text-decoration: none;
+}
+/*    show hide         */
