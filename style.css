@@ -62,8 +62,12 @@ nav .navbar .links li a {
   font-weight: 500;
 }
 nav .navbar .links li a:hover {
-  color: #4e4eff;
+  color: rgb(112, 112, 241);
 }
+nav .navbar .links li .nav-active{
+  color: rgb(112, 112, 241);
+}
+
 .links li:hover .bollyact-arrow,
 .links li:hover .cb-arrow {
   transform: rotate(180deg);
@@ -110,6 +114,7 @@ nav .navbar .links li:hover .cb-sub-menu {
 .navbar .bx-menu {
   display: none;
 }
+
 /*        top nav        */
 /*        catagory        */
 #category {
@@ -164,7 +169,7 @@ nav .navbar .links li:hover .cb-sub-menu {
   z-index: 1;
 }
 .dropdown-content a:hover {
-  color: #4e4eff;
+  color: rgb(112, 112, 241);
 }
 
 #datapage {
@@ -341,8 +346,10 @@ nav .navbar .links li:hover .cb-sub-menu {
   color: #4e4eff;
 }
 .footer .footer-copyright {
+  padding-top: 20px;
   font-size: 1.2vw;
   font-family: "PT Sans", sans-serif;
+  text-align: center;
 }
 /*footer*/
 
@@ -379,24 +386,32 @@ nav .navbar .links li:hover .cb-sub-menu {
 
 /* data */
 
-/*  ad-with-us  */
+/*  ad-with-us,add-profile,disclaimer  */
+
 .ad-container {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
-.ad-with-us-hading h1 {
+.ad-container .ad-hading h1 {
   font-family: "Ubuntu", sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.ad-with-us-info p {
-  font-family: "PT Sans", sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.ad-container .ad-info h5{
+  margin-top: 17px;
+  margin-bottom: 17px;
+  font-weight: bold; 
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
 }
-/*  ad-with-us  */
-
+.ad-container .ad-info p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1vw;
+font-family: 'Lato', sans-serif;
+}
+/*  ad-with-us,add-profile,disclaimer  */
 
 /*    card-details      */
 .card-details{

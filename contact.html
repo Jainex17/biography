@@ -10,19 +10,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.smin.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=PT+Sans&family=Poppins:wght@600&family=Roboto&family=Ubuntu:ital,wght@1,700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&family=Rubik:wght@500&display=swap"
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
@@ -44,7 +42,7 @@
                 <div class="logo"><a href="index.html">BIOGRAPHY</a></div>
                 <div class="nav-links">
                     <div class="sidebar-logo">
-                        <span class="logo-name">BIOGRAPHY</span>
+                        <span class="logo-name">Biography</span>
                         <i class='bx bx-x'></i>
                     </div>
                     <ul class="links">
@@ -64,54 +62,55 @@
                                 <li><a href="youtuber.html">Youtubers</a></li>
                                 <li><a href="singer.html">Singer</a></li>
                                 <li><a href="dancer.html">Dancer</a></li>
-                                <li><a href="famous-Personaliies.html">Famous Personaliies</a></li>
+                                <li><a href="famous-Personaliies.html">FAMOUS Personalities</a></li>
                             </ul>
                         </li>
                         <li><a href="about-us.html">ABOUT US</a></li>
-                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="contact.html" class="nav-active">CONTACT US</a></li>
                     </ul>
                 </div>
 
             </div>
         </nav><br><br><br><br>
         <!--            Top Nav           -->
+        <hr>
+        <!--      category header   -->
 
-        <div class="p-main">
-            <div class="p-hader">
-                <h2>PRIVACY POLICY</h2>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>We're Here For You</h2>
+                <p>Any Question Write Her And Sent Massages.</p>
             </div>
-            <div class="p-info">
-                <p>
-                    We understand that privacy online is important to users of our Site, especially when conducting
-                    business.
-                    This statement governs our privacy policies with respect to those users of the Site (“Visitors”) who
-                    visit without
-                    transacting business and Visitors who register to transact business on the Site and make use of the
-                    various services offered by Biography Wiki (collectively, “Services”) (“Authorized Customers”).
-                </p>
-                <div class="p-info-head">
-                    <h6>“Personally Identifiable Information”</h6>
+            <div class="row">
+                <div class="column">
+                    <img src="https://th.bing.com/th/id/OIP.FwE92zbcnYirl0j-o5guJQHaEs?pid=ImgDet&rs=1"
+                        style="width:100%">
                 </div>
-                <p>refers to any information that identifies or can be used to identify, contact, or locate the person
-                    to whom such information pertains, including, but not limited to, name, address, phone number, fax
-                    number, email address, financial profiles, social security number, and credit card information.
-                    Personally Identifiable Information does not include information that is collected anonymously (that
-                    is, without identification of the individual user)
-                    or demographic information not connected to an identified individual.
+                <div class="column">
+                    <form action="/action_page.xml">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" maxlength="12" placeholder=" Your name...">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" maxlength="12" placeholder="Your last name...">
+                        <label for="email">Email</label>
+                        <input type="mail" id="mail" name="mail" placeholder=" abc@00gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$ "><br>
+                        <label for=" country">Country</label>
+                        <select id="country" name="country" placeholder="Enter Your City...">
 
-                </p>
-                <div class="p-info-head">
-                    <h6>What Personally Identifiable Information is collected?</h6>
+                            <option value="Uk">Uk</option>
+                            <option value="India">India</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <label for="your msg" placeholder="Send Your Feedback... ">Your Msg</label>
+                        <textarea id="subject" name="subject" style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
-                <p>We may collect basic user profile information from all of our Visitors. We collect the following
-                    additional information from our Authorized Customers: the names, addresses, phone numbers and email
-                    addresses of Authorized Customers, the nature and size of the business, and the nature and size of
-                    the advertising inventory that the Authorized Customer intends to purchase or sell.
-                </p>
             </div>
-
         </div>
 
+        <hr>
 
         <div class="footer">
             <div class="container">
@@ -120,7 +119,8 @@
                         <div class="social-link">
                             <a href="#">
                                 <img src="images/svg/icon-facebook.svg">
-                                <!--    <span class="footer-social-text">Facebook</span> -->
+                                <!--    <span class="footer-social-text">Facebook</span>
+ -->
                             </a>
                         </div>
                         <div class="social-link">
@@ -150,7 +150,7 @@
                             <a href="index.html">HOME</a>
                         </div>
                         <div class="footer-menu">
-                            <a href="privacy-policy.html" class="footer-menu-active">PRIVACY POLICY</a>
+                            <a href="privacy-policy.html">PRIVACY POLICY</a>
                         </div>
                         <div class="footer-menu">
                             <a href="disclaimer.html">DISCLAIMER</a>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <p class="footer-copyright">Copyright © 2022 Celebrity Biography of Famous Personalities - Powered by
-                    ?????</p>
+                    JRT Biography</p>
             </div>
         </div>
 
